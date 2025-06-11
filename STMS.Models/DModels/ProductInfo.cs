@@ -17,9 +17,9 @@ namespace STMS.Models.DModels
         public int ProductId { get; set; }
         public string ProductNo { get; set; }
         public string ProductName { get; set; }
-        [Column("FitLowTemperature")]
+        //[Column("FitLowTemperature")]
         public decimal? FitLowTemper { get; set; }
-        [Column("FitHighTemperature")]
+        //[Column("FitHighTemperature")]
         public decimal? FitHighTemper { get; set; }
         public int IsDeleted { get; set; }
     }
